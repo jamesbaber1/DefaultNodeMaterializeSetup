@@ -3,6 +3,9 @@ const  hbs = require('hbs');
 const fs = require('fs')
 const port = process.env.PORT || 3000;
 
+
+var textToAudio = JSON.parse(fs.readFileSync('textToAudio4.json', 'utf8'));
+
 var app = express();
 
 
@@ -42,12 +45,16 @@ app.get('/about', (req, res) => {
 
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        welcomeMessage: 'Welcome to my website!!',
+        welcomeMessage: 'Welcome to the AR-Craft Instructor Portal!',
         pageTitle: 'Home Page'
     });
 });
 
-app.use(express.static(__dirname + '/public'));
+app.get('/json', (req, res) => {
+    res.send(textToAudio);
+  });
+
+app.use(express.static(__dirname + '/generatedFiles'));
 
 app.listen(port, ()=>{
     console.log(`Server is up on  port ${port}`)
