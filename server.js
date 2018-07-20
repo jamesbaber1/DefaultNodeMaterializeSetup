@@ -1,12 +1,18 @@
 const express = require('express');
 const  hbs = require('hbs');
 const fs = require('fs')
+const notes = require('./notes.js')
+const generator = require('./app.js')
 const port = process.env.PORT || 3000;
 
 
 var textToAudio = JSON.parse(fs.readFileSync('textToAudio4.json', 'utf8'));
 
 var app = express();
+
+//generate
+generator.updateContent('textToAudio4.json');
+
 
 
 hbs.registerPartials(__dirname +'/views/partials')
@@ -36,10 +42,14 @@ hbs.registerHelper('screamIt', (text) => {      //function with an argument  hbs
     return text.toUpperCase();
 })
 
+hbs.registerHelper('getTextShort', (filename) => {      //function with an argument  hbs syntax:   {{screamIt text}}
+    return notes.getNote(filename).textshort;
+})
 
-app.get('/about', (req, res) => {
-    res.render('about.hbs', {
-        pageTitle: 'About Page'
+
+app.get('/editor', (req, res) => {
+    res.render('editor.hbs', {
+        pageTitle: 'Editor'
     });
 });
 

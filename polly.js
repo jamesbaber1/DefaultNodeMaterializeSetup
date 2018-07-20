@@ -23,7 +23,7 @@ var generateAudio = (textToAudio) => {
             let params = {
                 'Text': `${textToAudio.Instruments[i].audiocontent}`,
                 'OutputFormat': 'mp3',
-                'VoiceId': 'Matthew'
+                'VoiceId': 'Mathew'
             }
         
             Polly.synthesizeSpeech(params, (err, data) => {

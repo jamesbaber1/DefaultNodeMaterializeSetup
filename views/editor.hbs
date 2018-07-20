@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Editor</title>
+</head>
+<body>
+    {{> header}}
+
+
+
+
+    <form>
+<ul class="form-style-1">
+    <li>
+        <label>Instruments</label>
+        <select name="instruments" id="instruments" onchange="return showHide()">
+            <option value="PCLInfo">PCL</option>
+            <option value="DigitalAirspeedIndicatorInfo">DASI</option>
+            <option value="EADIInfo">EADI</option>
+        </select>
+    </li>
+    <li id="textbox">
+        <label>Description</label>
+        <textarea name="field5" id="textshort" class="field-long field-textarea">Placeholder</textarea>
+        
+        
+        
+    </li>
+    <li>
+        <input type="submit" value="Update" />
+    </li>
+</ul>
+</form>
+
+
+
+
+
+{{> footer}}
+
+</body>
+

@@ -1,158 +1,158 @@
 {
-  "Instruments": [
+    "Instruments": [
     {
       "filename": "PCLInfo",
-      "audiocontent": "The P C L regulates the amount of fuel that is supplied to the engine, therefore providing power to the engine.",
+      "audiocontent": "The Power Control Lever directly controls the aircraft engine output. Attached to the lever is the Engine Cutoff paddle responsible for shutting down fuel flow to the engine.",
       "title": "Power Control Lever",
-      "textshort": "The PCL regulates the amount of fuel that is supplied to the engine, therefore providing power to the engine.",
-      "textdetail": "The PCL regulates the amount of fuel that is supplied to the engine, therefore providing power to the engine."
+      "textshort": "The PCL controls the amount of fuel that is supplied to the engine.",
+      "textdetail": "The Power Control Lever directly controls the aircraft engine output. Attached to the lever is the Engine Cutoff paddle responsible for shutting down fuel flow to the engine."
     },
     {
       "filename": "AngleofAttackIndicatorInfo",
-      "audiocontent": "Displays the current angle of attack relative to the airflow over the wing.",
+      "audiocontent": "The Angle of Attack Indicator displays the current angle of attack relative to the airflow over the wing.",
       "title": "Angle of Attack Indicator",
       "textshort": "Displays the current angle of attack relative to the airflow over the wing.",
-      "textdetail": "Displays the current angle of attack relative to the airflow over the wing."
+      "textdetail": "The Angle of Attack Indicator displays the current angle of attack relative to the airflow over the wing."
     },
     {
       "filename": "DigitalAirspeedIndicatorInfo",
-      "audiocontent": "The Digital Airspeed Indicator:  The white needle displays the current indicated airspeed in knots, and the red and white needle indicates the maximum operating airspeed. ",
+      "audiocontent": "The white needle on the Digital Airspeed Indicator displays the current indicated airspeed in knots. The red and white needle indicates the maximum operating airspeed.",
       "title": "Digital Airspeed Indicator",
-      "textshort": "The Digital Airspeed Indicator:  The white needle displays the current indicated airspeed in knots, and the red and white needle indicates the maximum operating airspeed.",
-      "textdetail": "The Digital Airspeed Indicator:  The white needle displays the current indicated airspeed in knots, and the red and white needle indicates the maximum operating airspeed."
+      "textshort": "The white needle on the Digital Airspeed Indicator displays the current indicated airspeed in knots. The red and white needle indicates the maximum operating airspeed.",
+      "textdetail": "The white needle on the Digital Airspeed Indicator displays the current indicated airspeed in knots. The red and white needle indicates the maximum operating airspeed."
     },
     {
       "filename": "EADIInfo",
-      "audiocontent": "Usually, the E A D I shows a compass rose and C D I needle to assist in navigation in case either the E A D I or the E H S  I screen fails. It also provides information on distance to next waypoint, heading, altitude, and airspeed.",
+      "audiocontent": "Usually, the E A D I shows a compass rose and C D I needle to assist in navigation in case either the E A D I or the E H S I screen fails. It also provides information including distance to next the next navigational waypoint, heading, altitude, and airspeed.",
       "title": "EADI",
-      "textshort": "Usually, the EADI shows a compass rose and CDI needle to assist in navigation in case either the EADI or the EHSI screen fails. It also provides information on distance to next waypoint, heading, altitude, and airspeed.",
-      "textdetail": "Usually, the EADI shows a compass rose and CDI needle to assist in navigation in case either the EADI or the EHSI screen fails. It also provides information on distance to next waypoint, heading, altitude, and airspeed."
+      "textshort": "Usually, the EADI shows a compass rose and CDI needle to assist in navigation in case either the EADI or the EHSI screen fails. It also provides information including distance to next the next navigational waypoint, heading, altitude, and airspeed.",
+      "textdetail": "Usually, the EADI shows a compass rose and CDI needle to assist in navigation in case either the EADI or the EHSI screen fails. It also provides information including distance to next the next navigational waypoint, heading, altitude, and airspeed."
     },
     {
       "filename": "DigitalAltitudeIndicatorInfo",
-      "audiocontent": "The Digital Altutude Indicator displays the current altitude of the aircraft in feet.",
+      "audiocontent": "The Digital Altitude Indicator displays the current altitude of the aircraft in feet.",
       "title": "Digital Altitude Indicator",
-      "textshort": "The Digital Altutude Indicator displays the current altitude of the aircraft in feet.",
-      "textdetail": "The Digital Altutude Indicator displays the current altitude of the aircraft in feet."
+      "textshort": "The Digital Altitude Indicator displays the current altitude of the aircraft in feet.",
+      "textdetail": "The Digital Altitude Indicator displays the current altitude of the aircraft in feet."
     },
     {
       "filename": "NosewheelSteeringandSpeedBrakeindicatorsInfo",
-      "audiocontent": "Displays if the Nosewheel Steering system is active (top indicator) and if the Speed brake is deployed (bottom indicator).",
+      "audiocontent": "These are the Nosewheel Steering and Brake Speed Indicators. The top indicator displays whether the nosewheel steering system is active. The lower indicator displays whether the speed brake is deployed.",
       "title": "Nosewheel Steering and Speed Brake Indicators",
       "textshort": "Displays if the Nosewheel Steering system is active (top indicator) and if the Speed brake is deployed (bottom indicator).",
-      "textdetail": "Displays if the Nosewheel Steering system is active (top indicator) and if the Speed brake is deployed (bottom indicator)."
+      "textdetail": "These are the Nosewheel Steering and Brake Speed Indicators. The top indicator displays whether the nosewheel steering system is active. The lower indicator displays whether the speed brake is deployed."
     },
     {
       "filename": "ChronometerInfo",
-      "audiocontent": "Displays the current local time in 24-hour format.",
+      "audiocontent": "The chronometer displays the current local time in 24-hour format.",
       "title": "Chronometer",
-      "textshort": "Displays the current local time in 24-hour format.",
-      "textdetail": "Displays the current local time in 24-hour format."
+      "textshort": "The chronometer displays the current local time in 24-hour format.",
+      "textdetail": "The chronometer displays the current local time in 24-hour format."
     },
     {
-      "filename": "G-ForceIndicatorInfo",
-      "audiocontent": "Displays the current force in G being applied to the airframe with needles for maximum and minimum attained G-force.",
+      "filename": "GeForceIndicatorInfo",
+      "audiocontent": "The G Force Indicator displays the current force in G's being applied to the airframe. It uses a pair of needles to indicate the maximum and minimum attained G Force.",
       "title": "G-Force Indicator",
-      "textshort": "Displays the current force in G being applied to the airframe with needles for maximum and minimum attained G-force.",
-      "textdetail": "Displays the current force in G being applied to the airframe with needles for maximum and minimum attained G-force."
+      "textshort": "The G-Force Indicator displays the current force in G's being applied to the airframe. It uses a pair of needles to indicate the maximum and minimum attained G-force.",
+      "textdetail": "The G-Force Indicator displays the current force in G's being applied to the airframe. It uses a pair of needles to indicate the maximum and minimum attained G-force."
     },
     {
       "filename": "RadioSystemInfo",
-      "audiocontent": "Displays the current radio frequencies for A D F, Communications, Transponder and N A V 1.",
+      "audiocontent": "The Radio System displays the current radio frequencies for A D F, Communications, Transponder and N A V 1.",
       "title": "Radio System",
-      "textshort": "Displays the current radio frequencies for ADF, Communications, Transponder and NAV1.",
-      "textdetail": "Displays the current radio frequencies for ADF, Communications, Transponder and NAV1."
+      "textshort": "The Radio System displays the current radio frequencies for ADF, Communications, Transponder and NAV1.",
+      "textdetail": "The Radio System displays the current radio frequencies for ADF, Communications, Transponder and NAV1."
     },
     {
       "filename": "EHSIInfo",
-      "audiocontent": "The Electronic Horizontal Situation Indicator is the center of the display that shows a compass with three needles. The green needle points to the next VOR or GPS waypoint. The white needle shows the direction of the selected navigation source. The red needle is the direction to the next GPS waypoint.",
+      "audiocontent": "The center of the Electronic Horizontal Situation Indicator shows a compass with three needles. The green needle points to the next V O R or G P S waypoint. The white needle shows the direction of the selected navigation source. The red needle is the direction to the next G P S waypoint.",
       "title": "EHSI",
-      "textshort": "The Electronic Horizontal Situation Indicator is the center of the display that shows a compass with three needles. The green needle points to the next VOR or GPS waypoint. The white needle shows the direction of the selected navigation source. The red needle is the direction to the next GPS waypoint.",
-      "textdetail": "The Electronic Horizontal Situation Indicator is the center of the display that shows a compass with three needles. The green needle points to the next VOR or GPS waypoint. The white needle shows the direction of the selected navigation source. The red needle is the direction to the next GPS waypoint."
+      "textshort": "The center of the Electronic Horizontal Situation Indicator shows a compass with three needles. The green needle points to the next VOR or GPS waypoint. The white needle shows the direction of the selected navigation source. The red needle is the direction to the next GPS waypoint.",
+      "textdetail": "The center of the Electronic Horizontal Situation Indicator shows a compass with three needles. The green needle points to the next VOR or GPS waypoint. The white needle shows the direction of the selected navigation source. The red needle is the direction to the next GPS waypoint."
     },
     {
       "filename": "DigitalVerticalSpeedIndicatorInfo",
-      "audiocontent": "Displays the current speed of ascent or descent in feet per minute. Positive indications show a climb and negative indications show a descent",
+      "audiocontent": "The Digital Vertical Speed Indicator displays the current speed of ascent or descent in feet per minute. Positive indications show a climb and negative indications show a descent.",
       "title": "Digital Vertical Speed Indicator",
-      "textshort": "Displays the current speed of ascent or descent in feet per minute. Positive indications show a climb and negative indications show a descent",
-      "textdetail": "Displays the current speed of ascent or descent in feet per minute. Positive indications show a climb and negative indications show a descent"
+      "textshort": "The Digital Vertical Speed Indicator displays the current speed of ascent or descent in feet per minute. Positive indications show a climb and negative indications show a descent.",
+      "textdetail": "The Digital Vertical Speed Indicator displays the current speed of ascent or descent in feet per minute. Positive indications show a climb and negative indications show a descent."
     },
     {
       "filename": "PEDDInfo",
-      "audiocontent": "The Primary Engine Data Display shows all major engine data and is tied to the F-20 generator bus and avionics master switch. Contains Engine R P M represented as N 2, Internal Turbine Temperature, Engine N 1 value, and outside air temperature",
+      "audiocontent": "The Primary Engine Data Display shows all major engine data. It is tied to the F-20 generator bus and avionics master switch. It displays Engine R P M represented as N 2, Internal Turbine Temperature, Engine N1 value, and outside air temperature.",
       "title": "PEDD",
-      "textshort": "The Primary Engine Data Display shows all major engine data and is tied to the F-20 generator bus and avionics master switch. Contains Engine RPM represented as N2, Internal Turbine Temperature, Engine N1 value, and outside air temperature",
-      "textdetail": "The Primary Engine Data Display shows all major engine data and is tied to the F-20 generator bus and avionics master switch. Contains Engine RPM represented as N2, Internal Turbine Temperature, Engine N1 value, and outside air temperature"
+      "textshort": "The Primary Engine Data Display shows all major engine data. It is tied to the F-20 generator bus and avionics master switch. It displays Engine RPM represented as N2, Internal Turbine Temperature, Engine N1 value, and outside air temperature.",
+      "textdetail": "The Primary Engine Data Display shows all major engine data. It is tied to the F-20 generator bus and avionics master switch. It displays Engine RPM represented as N2, Internal Turbine Temperature, Engine N1 value, and outside air temperature."
     },
     {
       "filename": "FDUInfo",
-      "audiocontent": "The Flight-plan Display Unit displays information on the planned flight route. This includes the currently selected navigation reference point, and next navigation reference point, course deviation, distance, speed, E T A, bearing, altitude, latitude, and longitude. ",
+      "audiocontent": "The Flight-Plan Display Unit displays information on the planned flight route. This includes the currently selected navigation reference point, the next navigation reference point, course deviation, distance, speed, E T A, bearing, altitude, latitude, and longitude.",
       "title": "FDU",
-      "textshort": "The Flight-plan Display Unit displays information on the planned flight route. This includes the currently selected navigation reference point, and next navigation reference point, course deviation, distance, speed, ETA, bearing, altitude, latitude, and longitude.",
-      "textdetail": "The Flight-plan Display Unit displays information on the planned flight route. This includes the currently selected navigation reference point, and next navigation reference point, course deviation, distance, speed, ETA, bearing, altitude, latitude, and longitude."
+      "textshort": "The Flight-Plan Display Unit displays information on the planned flight route. This includes the currently selected navigation reference point, the next navigation reference point, course deviation, distance, speed, ETA, bearing, altitude, latitude, and longitude.",
+      "textdetail": "The Flight-Plan Display Unit displays information on the planned flight route. This includes the currently selected navigation reference point, the next navigation reference point, course deviation, distance, speed, ETA, bearing, altitude, latitude, and longitude."
     },
     {
       "filename": "AEDDInfo",
-      "audiocontent": "The Alternate Engine Data Display provides both cockpits with backup visual indication of engine operations. This includes Raw Inter-Turbine Temperature (R I T T), Engine RPM (N 2), Fuel Flow, and Fuel Quantity ",
+      "audiocontent": "The Alternate Engine Data Display provides both cockpits with backup visual indication of engine operations. This includes Raw Inter-Turbine Temperature, Engine RPM, Fuel Flow, and Fuel Quantity.",
       "title": "AEDD",
-      "textshort": "The Alternate Engine Data Display provides both cockpits with backup visual indication of engine operations. This includes Raw Inter-Turbine Temperature (RITT), Engine RPM (N2), Fuel Flow, and Fuel Quantity",
-      "textdetail": "The Alternate Engine Data Display provides both cockpits with backup visual indication of engine operations. This includes Raw Inter-Turbine Temperature (RITT), Engine RPM (N2), Fuel Flow, and Fuel Quantity"
+      "textshort": "The Alternate Engine Data Display provides both cockpits with backup visual indication of engine operations. This includes Raw Inter-Turbine Temperature (RITT), Engine RPM (N2), Fuel Flow, and Fuel Quantity.",
+      "textdetail": "The Alternate Engine Data Display provides both cockpits with backup visual indication of engine operations. This includes Raw Inter-Turbine Temperature (RITT), Engine RPM (N2), Fuel Flow, and Fuel Quantity."
     },
     {
       "filename": "ESNDInfo",
-      "audiocontent": "The Engine/Systems/NACWS Display shows current oil, hydraulic and electrical systems data. This includes oil temperature, oil pressure, hydraulic pressure, N A C W S mode selected, D C voltage, and D C amperage information .",
+      "audiocontent": "The Engine Systems N A C W S Display shows the status of the oil, hydraulic, and electrical systems. This information includes oil temperature, oil pressure, hydraulic pressure, N A C W S mode selection, D C voltage, and D C amperage.",
       "title": "ESND",
-      "textshort": "The Engine/Systems/NACWS Display shows current oil, hydraulic and electrical systems data. This includes oil temperature, oil pressure, hydraulic pressure, NACWS mode selected, DC voltage, and DC amperage information .",
-      "textdetail": "The Engine/Systems/NACWS Display shows current oil, hydraulic and electrical systems data. This includes oil temperature, oil pressure, hydraulic pressure, NACWS mode selected, DC voltage, and DC amperage information ."
+      "textshort": "The Engine Systems NACWS Display shows the status of the oil, hydraulic, and electrical systems. This information includes oil temperature, oil pressure, hydraulic pressure, NACWS mode selection, DC voltage, and DC amperage.",
+      "textdetail": "The Engine Systems NACWS Display shows the status of the oil, hydraulic, and electrical systems. This information includes oil temperature, oil pressure, hydraulic pressure, NACWS mode selection, DC voltage, and DC amperage."
     },
     {
       "filename": "PopupNavigatorInfo",
-      "audiocontent": "The popup navigator displays the panel popup overview controller allowing access to the side consoles and other instrumentation in the 2D panel or quicker access to pop-ups in the Virtual Cockpit view. .",
+      "audiocontent": "TAKE THIS OUT",
       "title": "Popup Navigator",
-      "textshort": "The popup navigator displays the panel popup overview controller allowing access to the side consoles and other instrumentation in the 2D panel or quicker access to pop-ups in the Virtual Cockpit view.",
-      "textdetail": "The popup navigator displays the panel popup overview controller allowing access to the side consoles and other instrumentation in the 2D panel or quicker access to pop-ups in the Virtual Cockpit view."
+      "textshort": "TAKE THIS OUT",
+      "textdetail": "TAKE THIS OUT"
     },
     {
       "filename": "AudioConsoleInfo",
-      "audiocontent": "The audio console Toggles on or off many audio switches for various navigational systems.",
+      "audiocontent": "The Audio Console contains toggles that control the audio settings for various instruments in the cockpit.",
       "title": "Audio Console",
-      "textshort": "The audio console Toggles on or off many audio switches for various navigational systems.",
-      "textdetail": "The audio console Toggles on or off many audio switches for various navigational systems."
+      "textshort": "The Audio Console contains toggles that control the audio settings for various instruments in the cockpit.",
+      "textdetail": "The Audio Console contains toggles that control the audio settings for various instruments in the cockpit."
     },
     {
       "filename": "StandbyAirspeedIndicatorInfo",
-      "audiocontent": "The standby airspeed indicator displays the current indicated airspeed of the aircraft.",
+      "audiocontent": "The Standby Airspeed Indicator is a backup instrument that displays the current indicated airspeed of the aircraft in the event of primary instrumentation failure.",
       "title": "Standby Airspeed Indicator",
-      "textshort": "The standby airspeed indicator displays the current indicated airspeed of the aircraft.",
-      "textdetail": "The standby airspeed indicator displays the current indicated airspeed of the aircraft."
+      "textshort": "The Standby Airspeed Indicator displays the current indicated airspeed of the aircraft.",
+      "textdetail": "The Standby Airspeed Indicator is a backup instrument that displays the current indicated airspeed of the aircraft in the event of primary instrumentation failure."
     },
     {
       "filename": "StandbyAltitudeIndictorInfo",
-      "audiocontent": "The standby attitude indicator is a backup instrument that displays the current altitude information of the aircraft.",
+      "audiocontent": "The Standby Attitude Indicator is a backup instrument that displays the current altitude of the aircraft in the event of primary instrumentation failure.",
       "title": "Standby Altitude Indictor",
-      "textshort": "The standby attitude indicator is a backup instrument that displays the current altitude information of the aircraft.",
-      "textdetail": "The standby attitude indicator is a backup instrument that displays the current altitude information of the aircraft."
+      "textshort": "The Standby Attitude Indicator is a backup instrument that displays the current altitude of the aircraft.",
+      "textdetail": "The Standby Attitude Indicator is a backup instrument that displays the current altitude of the aircraft in the event of primary instrumentation failure."
     },
     {
       "filename": "StandbyAltimeterInfo",
-      "audiocontent": "The standby altimeter is a backup insrument that displays the current height of the aircraft, expressed in feet starting at sea level.",
+      "audiocontent": "The Standby Altimeter is a backup instrument that displays the current height of the aircraft in the event of primary instrumentation failure. The height is expressed in feet relative to sea level.",
       "title": "Standby Altimeter",
-      "textshort": "The standby altimeter is a backup insrument that displays the current height of the aircraft, expressed in feet starting at sea level.",
-      "textdetail": "The standby altimeter is a backup insrument that displays the current height of the aircraft, expressed in feet starting at sea level."
+      "textshort": "The Standby Altimeter is a backup instrument that displays the current height of the aircraft.",
+      "textdetail": "The Standby Altimeter is a backup instrument that displays the current height of the aircraft in the event of primary instrumentation failure. The height is expressed in feet relative to sea level."
     },
     {
       "filename": "StanbyTurnandSlipIndcatorInfo",
-      "audiocontent": "The Standby Turn and Slip Indicator displays the current turn and slip of the aircraft.",
-      "title": "Stand by Turn and Slip Indcator",
+      "audiocontent": "The Standby Turn and Slip Indicator is a backup instrument that displays the current turn and slip of the aircraft in the event of primary instrumentation failure.",
+      "title": "Stand by Turn and Slip Indicator",
       "textshort": "The Standby Turn and Slip Indicator displays the current turn and slip of the aircraft.",
-      "textdetail": "The Standby Turn and Slip Indicator displays the current turn and slip of the aircraft."
+      "textdetail": "The Standby Turn and Slip Indicator is a backup instrument that displays the current turn and slip of the aircraft in the event of primary instrumentation failure."
     },
     {
       "filename": "CWSInfo",
-      "audiocontent": "The Central Warning/Caution/Advisory and Annunciation System displays warnings.",
+      "audiocontent": "The Central Warning, Caution, Advisory, and Annunciation System displays warnings depending on the current state of the aircraft.",
       "title": "CWS",
-      "textshort": "The Central Warning/Caution/Advisory and Annunciation System displays warnings.",
-      "textdetail": "The Central Warning/Caution/Advisory and Annunciation System displays warnings."
+      "textshort": "The Central Warning/Caution/Advisory and Annunciation System displays warnings depending on the current state of the aircraft.",
+      "textdetail": "The Central Warning/Caution/Advisory and Annunciation System displays warnings depending on the current state of the aircraft."
     },
     {
       "filename": "FlapIndicatorInfo",
@@ -163,62 +163,144 @@
     },
     {
       "filename": "EFISInfo",
-      "audiocontent": "The Electronic flight information system allows for the control of the E A D I and E H S I  systems. The pilot can adjust their heading and other navigation modes using this panel.",
+      "audiocontent": "The Electronic Flight Information System contains controls for the E A D I and E H S I systems. The pilot can adjust their heading and other navigation modes using this panel.",
       "title": "EFIS",
-      "textshort": "The Electronic flight information system allows for the control of the EADI and EHSI  systems. The pilot can adjust their heading and other navigation modes using this panel.",
-      "textdetail": "The Electronic flight information system allows for the control of the EADI and EHSI  systems. The pilot can adjust their heading and other navigation modes using this panel."
+      "textshort": "The EFIS contains controls for the EADI and EHSI systems.",
+      "textdetail": "The Electronic Flight Information System contains controls for the EADI and EHSI systems. The pilot can adjust their heading and other navigation modes using this panel."
     },
     {
-      "filename": "ParkingBreakHandleInfo",
-      "audiocontent": "Turn to engage or release the aircraft park brakes. You want to use this when you want to park the plane, or make it move when you want to fly. Gear indicator and Handle - Pull or push this to raise or lower the landing gear. Also features indication lights, green for down, red for transitioning and no lights indicate that the gear raised.",
-      "title": "Parking Break Handle",
-      "textshort": "Turn to engage or release the aircraft park brakes. You want to use this when you want to park the plane, or make it move when you want to fly. Gear indicator and Handle - Pull or push this to raise or lower the landing gear. Also features indication lights, green for down, red for transitioning and no lights indicate that the gear raised.",
-      "textdetail": "Turn to engage or release the aircraft park brakes. You want to use this when you want to park the plane, or make it move when you want to fly. Gear indicator and Handle - Pull or push this to raise or lower the landing gear. Also features indication lights, green for down, red for transitioning and no lights indicate that the gear raised."
+      "filename": "ParkingBrakeHandleInfo",
+      "audiocontent": "The Parking Brake Handle can be turned to engage or release the aircraft parking brakes.",
+      "title": "Parking Brake Handle",
+      "textshort": "The Parking Brake Handle can be turned to engage or release the aircraft parking brakes.",
+      "textdetail": "The Parking Brake Handle can be turned to engage or release the aircraft parking brakes."
+    },
+    {
+      "filename": "BackupRadioInfo",
+      "audiocontent": "This is a backup radio for COM2 frequency tuning.",
+      "title": "Backup Radio",
+      "textshort": "This is a backup radio for COM2 frequency tuning.",
+      "textdetail": "This is a backup radio for COM2 frequency tuning."
+    },
+    {
+      "filename": "FlapLeverInfo",
+      "audiocontent": "The Flap Lever can be pulled or pushed to move the aircraft wing flaps up and down, respectively.",
+      "title": "Flap Lever",
+      "textshort": "The Flap Lever can be pulled or pushed to move the aircraft wing flaps up and down, respectively.",
+      "textdetail": "The Flap Lever can be pulled or pushed to move the aircraft wing flaps up and down, respectively."
+    },
+    {
+      "filename": "OxygenInfo",
+      "audiocontent": "The Oxygen Console provides control of the onboard oxygen systems.",
+      "title": "Oxygen Console",
+      "textshort": "The Oxygen Console provides control of the onboard oxygen systems.",
+      "textdetail": "The Oxygen Console provides control of the onboard oxygen systems."
+    },
+    {
+      "filename": "PropulsionInfo",
+      "audiocontent": "The Propulsion Console provides control of the engine systems as well as the fuel control systems.",
+      "title": "Propulsion Console",
+      "textshort": "The Propulsion Console provides control of the engine systems as well as the fuel control systems.",
+      "textdetail": "The Propulsion Console provides control of the engine systems as well as the fuel control systems."
+    },
+    {
+      "filename": "SystemTestInfo",
+      "audiocontent": "The System Test Console provides controls and indicators used by the pre-flight check systems.",
+      "title": "System Test Console",
+      "textshort": "The System Test Console provides controls and indicators used by the pre-flight check systems.",
+      "textdetail": "The System Test Console provides controls and indicators used by the pre-flight check systems."
+    },
+    {
+      "filename": "TemperatureInfo",
+      "audiocontent": "The Temperature Console controls the onboard temperature and air conditioning systems.",
+      "title": "Temperature Console",
+      "textshort": "The Temperature Console controls the onboard temperature and air conditioning systems.",
+      "textdetail": "The Temperature Console controls the onboard temperature and air conditioning systems."
+    },
+    {
+      "filename": "GearIndicatorInfo",
+      "audiocontent": "This is the Gear Indicator and the Gear Handle. Push or pull the Gear Handle to lower or raise the landing gear, respectively. The Gear Indicator has lights indicating the status of the landing gear. Green indicates that the landing gear is down. Red indicates that the landing gear is transitioning to the closed position. If no lights are illuminated, the landing gear is stowed.",
+      "title": "Gear Indicator and Gear Handle",
+      "textshort": "The Gear Handle is used to raise or lower the landing gear. The Gear Indicator communicates the status of the landing gear.",
+      "textdetail": "This is the Gear Indicator and the Gear Handle. Push or pull the Gear Handle to lower or raise the landing gear, respectively. The Gear Indicator has lights indicating the status of the landing gear. Green indicates that the landing gear is down. Red indicates that the landing gear is transitioning to the closed position. If no lights are illuminated, the landing gear is stowed."
+    },
+    {
+      "filename": "LightingTrimInfo",
+      "audiocontent": "The Lighting and Trim Aid Console displays the positions of the aileron, rudder and pitch trimtab. It also provides exterior lighting controls.",
+      "title": "Lighting and Trim Aid Console",
+      "textshort": "The Lighting and Trim Aid Console displays the positions of the aileron, rudder and pitch trimtab. It also provides exterior lighting controls.",
+      "textdetail": "The Lighting and Trim Aid Console displays the positions of the aileron, rudder and pitch trimtab. It also provides exterior lighting controls."
     }
   ],
-  "Instructions":
+    "Instructions":
   [
     {
-      "filename": "StartScreenIntructions",
-      "audiocontent": "Welcome to AR-Craft Academy!!! Are you ready to learn how to fly?!"
+      "filename": "StartScreen",
+      "audiocontent": "Welcome to AR-Craft Academy!"
     },
     {
-      "filename": "StartScreenIntructionsVersion2",
-      "audiocontent": "WELCOME TO AR-CRAFT ACADEMY!!!! ARE YOU READY TO LEARN HOW TO FLY?!"
+      "filename": "AnchorWindow",
+      "audiocontent": "Find some open space. AR-Craft Academy uses reference points on the ground to determine your position relative to the cockpit. Environments with high amounts of contrast or visual texture tend to perform better. After pressing the start button, you can begin to scan the floor in front of you."
     },
     {
-      "filename": "PlacementIntructions",
-      "audiocontent": "Find some open space, and scan the floor in front of you."
+      "filename": "PostAnchorWindow",
+      "audiocontent": "Use motions like those indicated in the visual. When all three anchors light up, tap the screen to proceed. "
     },
     {
-      "filename": "PlacementIntructions2",
-      "audiocontent": "Now, scan the floor below you. Make sure the ground has some texture, so the tracking can be better. Move the camera around, and when the guage shows that you have enough features tracked, tap the screen to place the cockpit in front of you. "
+      "filename": "RebuildTutoial",
+      "audiocontent": "Now that you have found all your anchors, you can press the build button to place the cockpit. You can press this button again at any time to move the cockpit to your current position."
     },
     {
-      "filename": "SelectIntructions",
-      "audiocontent": "Go ahead and select the plane you want to practice flying. Press go when you are ready to jump in."
+      "filename": "SelectScreen",
+      "audiocontent": "Select your plane and press the button when you are ready to proceed."
     },
     {
-      "filename": "ExploreModeIntructions",
-      "audiocontent": "Feel free to tap around to learn about any of these controls here! You can run a checklist procesure with any given control that you want to learn about."
+      "filename": "SelectionTutorial",
+      "audiocontent": "First, tap the highlighted instrument to select it. This will summon the information tray with an overview of the part as well as a narration providing additional detail. Press the play button to begin the narration or tap read more to gain additional information about this instrument."
     },
     {
-      "filename": "NormalTakeOffIntructions",
-      "audiocontent": "First, release the brakes! Then, get that throttle to a 75% to 80% Torque. Check that torque, N1, I T T to ensure correct operations. The airspeed should be at 100 KIAS rotate. Then, once you get in the air, the landing gear and the flaps should go up, and should be climbing at 180 to 200 knots. You should now be ready to fly in the air! More stuff could happen while you are up there, so make sure you go through the rest of the tutorials.  "
+      "filename": "PostSelectionIntructions",
+      "audiocontent": "You can select any instrument in the cockpit to re-summon the tray with new information about that instrument. When you're ready, you can step into a guided lesson where you can learn a simplified version of the engine startup procedures. "
     },
     {
-      "filename": "PreTakeOffIntructions",
-      "audiocontent": "The Canopy should be closed, locked, and the lights out! The air brake is in, we want to make sure you can take off. Select T/O with FLAPS and check their indicators. Make sure your probes for anti-ice are ON and indicating so. The trims should be set as required. The Flight Instuments should have a functional check carried out, and that means no flags are raised. The engine instruments should indicate a green arc. The Hydrailic Press should indicate a green arc. The Fuel audiocontents agrees with the analogue gauge, and it should also be balanced, and the flow should be normal. The CWS should show no red or amber captions. The Controls should give full or free movement. The emergency briefing should be conducted."
+      "filename": "LearningInstruction",
+      "audiocontent": "Press the button in the bottom right to begin the lesson. As the lesson proceeds, you will be told to check different instruments. Tap the highlighted instrument to do so. Press the main button to restart the lesson at any time."
     },
     {
-      "filename": "LineUpChecksIntructions",
-      "audiocontent": "Make sure the landing lights are on! The transponder (X P D R should be as required. and the anti-collision lights should be as required."
+      "filename": "Learn1",
+      "audiocontent": "First, you'll need to move the P C L into the Start position. You'll observe that the Start Ready indicator on the Central Warning System will light up."
     },
     {
-      "filename": "RebuildIntructions",
-      "audiocontent": "Tap the rebuild button when you want to change the angle of the cockpit to be more aligned with yourself."
+      "filename": "Learn2",
+      "audiocontent": "Next, press the starter switch on the propulsion console. The Boost Pump and Ignition indicators on the Central Warning System will also light up."
+    },
+    {
+      "filename": "Learn3",
+      "audiocontent": "After pressing the starter switch, observe the Engine Systems N A C W S Display, or E N S D, for changes in the battery voltage and amperage. Additionally, you should observe increases in oil and hydraulic pressure."
+    },
+    {
+      "filename": "Learn4",
+      "audiocontent": "Check the Alternate Engine Data Display, or A E D D, to ensure fuel flow."
+    },
+    {
+      "filename": "Learn5",
+      "audiocontent": "Now, observe the Primary Engine Data Display to ensure that the Internal Turbine Temperature does not exceed the maximum operating threshold."
+    },
+    {
+      "filename": "Learn6",
+      "audiocontent": "Having completed these checks, you can now move the P C L into the idle position and complete the engine startup sequence."
+    },
+    {
+      "filename": "PostLearning",
+      "audiocontent": "Congratulations on completing your first engine startup. Now that you have learned the engine startup sequence, it's time to put your knowledge to the test. Press the main button when you're ready."
+    },
+    {
+      "filename": "TestingInstruction",
+      "audiocontent": "Tap the instruments in the same order as you did in the previous lesson. There won't be any guidance, but if you get stuck, you can always use the main button to restart the test. As a reminder, the order for the engine startup sequence is P C L, starter switch, E N S D, A E D D, P E D D, and finally the P C L again. When you’re ready, press the button in the bottom right to begin. Good luck!"
+    },
+    {
+      "filename": "PostTest",
+      "audiocontent": "Congratulations on completing the startup sequence. You should see your score above. Use the main button to return to Explore Mode. You can continue to learn about additional instruments, or repeat the lesson and test sequence again if desired."
     }
   ]
-
-} 
-
+}
