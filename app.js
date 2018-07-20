@@ -3,10 +3,10 @@ const polly = require('./polly.js');
 const Fs = require('fs');
 
 
-//var updateContent = (jsonFile) =>{
+var updateContent = (jsonFile) =>{
 
 //load JSON File
-var textToAudio = JSON.parse(Fs.readFileSync('textToAudio4.json', 'utf8'));
+var textToAudio = JSON.parse(Fs.readFileSync(jsonFile, 'utf8'));
 var urlAddress = '';
 
 console.log(textToAudio.Instruments[0].filename)
@@ -38,8 +38,8 @@ for(index=0; index<textToAudio.Instruments.length; index++)
 }
 
     
-// };
+};
 
-// module.exports = {
-//     updateContent
-// }
+module.exports = {
+    updateContent
+}

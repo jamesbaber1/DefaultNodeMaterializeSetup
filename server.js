@@ -10,9 +10,6 @@ var textToAudio = JSON.parse(fs.readFileSync('textToAudio4.json', 'utf8'));
 
 var app = express();
 
-//generate
-generator.updateContent('textToAudio4.json');
-
 
 
 hbs.registerPartials(__dirname +'/views/partials')
