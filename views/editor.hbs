@@ -10,19 +10,22 @@
 
 
 
-    <form>
+    <form action="/editor" method="POST">
 <ul class="form-style-1">
     <li>
         <label>Instruments</label>
         <select name="instruments" id="instruments" onchange="return showHide()">
+            <option value="start">--Select Instrument--</option>
             <option value="PCLInfo">PCL</option>
             <option value="DigitalAirspeedIndicatorInfo">DASI</option>
             <option value="EADIInfo">EADI</option>
         </select>
     </li>
     <li id="textbox">
-        <label>Description</label>
-        <textarea name="field5" id="textshort" class="field-long field-textarea">Placeholder</textarea>
+        <label>Summary</label>
+        <textarea type="text" name="textshort" id="textshort" class="field-long field-textarea"></textarea>
+        <label>Detailed Description</label>
+        <textarea type="text" name="textdetail" id="textdetail" class="field-long field-textarea"></textarea>
         
         
         
@@ -30,6 +33,8 @@
     <li>
         <input type="submit" value="Update" />
     </li>
+
+    {{output}}
 </ul>
 </form>
 

@@ -23,7 +23,7 @@ var generateAudio = (textToAudio) => {
             let params = {
                 'Text': `${textToAudio.Instruments[i].audiocontent}`,
                 'OutputFormat': 'mp3',
-                'VoiceId': 'Mathew'
+                'VoiceId': 'Amy'
             }
         
             Polly.synthesizeSpeech(params, (err, data) => {
@@ -62,7 +62,7 @@ var generateAudio = (textToAudio) => {
             let params = {
                 'Text': `${textToAudio.Instructions[i].audiocontent}`,
                 'OutputFormat': 'mp3',
-                'VoiceId': 'Matthew'
+                'VoiceId': 'Amy'
             }
         
             Polly.synthesizeSpeech(params, (err, data) => {
@@ -101,7 +101,7 @@ var generateAudio = (textToAudio) => {
         generateInstructions(index)
     }
 
-    }, 2000);
+    }, 4000);
     });
     return promise;
 

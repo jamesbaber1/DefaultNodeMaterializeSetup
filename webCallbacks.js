@@ -16,7 +16,7 @@ var uploadAudio = (fileName) => {
     setTimeout(function() {
     cloudinary.v2.uploader.upload(`./generatedFiles/audio/Instruments/${fileName}.mp3`, {resource_type: 'video', public_id: `audio/${fileName}`},
     function(error, result){console.log(result, error)});
-    }, 3000);
+    }, 5000);
 };
 
 var uploadImages = (fileName) => {
@@ -25,7 +25,7 @@ var uploadImages = (fileName) => {
     function(error, result){console.log(result, error)});
     cloudinary.v2.uploader.upload(`./generatedFiles/imageMasks/${fileName}.png`, {public_id: `${fileName}Mask`},
     function(error, result){console.log(result, error)});
-    }, 8000);
+    }, 10000);
 };
 
 
@@ -34,7 +34,7 @@ var downloadCol = (fileName) => {
     var file = fs.createWriteStream(`./generatedFiles/imageColors/${fileName}.png`);
     var request = http.get(`http://res.cloudinary.com/dvlixmupw/video/upload/h_160,w_600,fl_waveform,co_rgb:D9C99A,b_white/audio/${fileName}.png`, function(response) {
     response.pipe(file);});
-    }, 6000);
+    }, 8000);
 };
 
 var downloadMask = (fileName) => {
@@ -42,7 +42,7 @@ var downloadMask = (fileName) => {
     var file = fs.createWriteStream(`./generatedFiles/imageMasks/${fileName}.png`);
     var request = http.get(`http://res.cloudinary.com/dvlixmupw/video/upload/h_160,w_600,fl_waveform,co_black,b_white/audio/${fileName}.png`, function(response) {
     response.pipe(file);});
-    }, 6000);
+    }, 8000);
 };
 
 var downloadFinal = (fileName) => {
@@ -69,7 +69,7 @@ var downloadFinal = (fileName) => {
     })
         
     
-    }, 9000);
+    }, 12000);
 };
 
 

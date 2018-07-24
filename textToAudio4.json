@@ -236,11 +236,11 @@
   [
     {
       "filename": "StartScreen",
-      "audiocontent": "Welcome to AR-Craft Academy!"
+      "audiocontent": "Welcome to A R Craft Academy!"
     },
     {
       "filename": "AnchorWindow",
-      "audiocontent": "Find some open space. AR-Craft Academy uses reference points on the ground to determine your position relative to the cockpit. Environments with high amounts of contrast or visual texture tend to perform better. After pressing the start button, you can begin to scan the floor in front of you."
+      "audiocontent": "Find some open space. A R Craft Academy uses reference points on the ground to determine your position relative to the cockpit. Environments with high amounts of contrast or visual texture tend to perform better. After pressing the start button, you can begin to scan the floor in front of you."
     },
     {
       "filename": "PostAnchorWindow",
