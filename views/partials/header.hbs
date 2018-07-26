@@ -6,56 +6,17 @@
   <title>Starter Template - Materialize</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <script>
-
-
-    function showHide()
-    {
-        var selectBox = document.getElementById('instruments')
-        var userinput = selectBox.options[selectBox.selectedIndex].value;
-        if (userinput == 'PCLInfo')
-        {
-            console.log(userinput);
-            document.getElementById("textshort").innerHTML = "{{getTextShort 'PCLInfo'}}";
-            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'PCLInfo'}}";
-        }
-        else if (userinput == 'DigitalAirspeedIndicatorInfo')
-        {
-            console.log(userinput);
-            document.getElementById("textshort").innerHTML = "{{getTextShort 'DigitalAirspeedIndicatorInfo'}}";
-            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'DigitalAirspeedIndicatorInfo'}}";
-        }
-        else if (userinput == 'EADIInfo')
-        {
-            console.log(userinput);
-            document.getElementById("textshort").innerHTML = "{{getTextShort 'EADIInfo'}}";
-            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'EADIInfo'}}";
-        }
-
-
-        else
-        {
-            document.getElementById("textshort").innerHTML = '';
-            document.getElementById("textdetail").innerHTML = '';
-        }
-        return false;
-    }
-
-    function getSelection()
-    {
-        var selectBox = document.getElementById('instruments')
-        var userinput = selectBox.options[selectBox.selectedIndex].value;
-        return document.getElementById("textshort").innerHTML = 'changed' + userinput;
-    }
-
-</script>
+  <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
+  
 
 </head>
 <body  >
-  <nav role="navigation" style="background: #D9C99A">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo large"><i class="material-icons">menu</i></a>
+  <nav  role="navigation" style="background: #151826">
+    <div class="container"><a id="logo-container" href="#" class="brand-logo large"><i class="material-icons hide-on-med-and-down">home</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/">Home</a></li>
         <li><a href="/editor">Editor</a></li>

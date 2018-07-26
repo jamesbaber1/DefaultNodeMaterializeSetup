@@ -68,10 +68,9 @@ hbs.registerHelper('getTextDetail', (filename) => {
     return notes.getNote(filename).textdetail;
 })
 
-
 app.get('/editor', (req, res) => {
     res.render('editor.hbs', {
-        pageTitle: 'Editor'
+        welcome: 'Welcome James!'
     });
 });
 

@@ -12,3 +12,10 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+#highlight:hover
+{
+  background: rgb(219, 211, 185);
+}
+
+

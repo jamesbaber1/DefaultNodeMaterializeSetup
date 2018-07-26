@@ -1,4 +1,4 @@
-<footer class="page-footer" style="background: #D9C99A">
+<footer class="page-footer" style="background: #151826">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -37,7 +37,70 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    function showHide()
+    {
+        var selectBox = document.getElementById('instruments')
+        var userinput = selectBox.options[selectBox.selectedIndex].value;
+        if (userinput == 'PCLInfo')
+        {
+           console.log(userinput);
+           document.getElementById("textshort").innerHTML = "{{getTextShort 'PCLInfo'}}";
+           M.textareaAutoResize($('#textshort'));
+           document.getElementById("textdetail").innerHTML = "{{getTextDetail 'PCLInfo'}}";
+           M.textareaAutoResize($('#textdetail'));
+        }
+        else if (userinput == 'DigitalAirspeedIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'DigitalAirspeedIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'DigitalAirspeedIndicatorInfo'}}";
+        }
+        else if (userinput == 'EADIInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'EADIInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'EADIInfo'}}";
+        }
+
+
+        else
+        {
+            document.getElementById("textshort").innerHTML = '';
+            document.getElementById("textdetail").innerHTML = '';
+        }
+        return false;
+    }
+
+    function getSelection()
+    {
+        var selectBox = document.getElementById('instruments')
+        var userinput = selectBox.options[selectBox.selectedIndex].value;
+        return document.getElementById("textshort").innerHTML = 'changed' + userinput;
+    }
+    </script>
+  <script>
+      
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+
+   $(document).ready(function(){
+    $('select').formSelect();
+  });
+
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+  
+    M.textareaAutoResize($('#textshort'));
+    M.textareaAutoResize($('#textdetail'));
+  
+  </script>
 
   </body>
 </html>
