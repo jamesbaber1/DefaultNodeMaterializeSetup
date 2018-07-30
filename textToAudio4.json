@@ -106,13 +106,6 @@
       "textdetail": "The Engine Systems NACWS Display shows the status of the oil, hydraulic, and electrical systems. This information includes oil temperature, oil pressure, hydraulic pressure, NACWS mode selection, DC voltage, and DC amperage."
     },
     {
-      "filename": "PopupNavigatorInfo",
-      "audiocontent": "TAKE THIS OUT",
-      "title": "Popup Navigator",
-      "textshort": "TAKE THIS OUT",
-      "textdetail": "TAKE THIS OUT"
-    },
-    {
       "filename": "AudioConsoleInfo",
       "audiocontent": "The Audio Console contains toggles that control the audio settings for various instruments in the cockpit.",
       "title": "Audio Console",

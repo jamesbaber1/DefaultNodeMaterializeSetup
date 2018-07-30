@@ -12,6 +12,7 @@
   "dependencies": {
     "aws-sdk": "^2.275.1",
     "body-parser": "^1.18.3",
+    "chart.js": "^2.7.2",
     "cloudinary": "^1.11.0",
     "express": "^4.16.3",
     "hbs": "^4.0.1",

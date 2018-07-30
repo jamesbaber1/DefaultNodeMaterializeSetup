@@ -2,34 +2,34 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">About</h5>
+          <p class="grey-text text-lighten-4">AR-Craft was created by 5 interns over the course of 10 weeks.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Audio Files</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="/audio/Instructions/AnchorWindow.mp3">Anchor Window</a></li>
+            <li><a class="white-text" href="/audio/Instructions/LearningInstruction.mp3">Learing Instruction</a></li>
+            <li><a class="white-text" href="/audio/Instructions/PostAnchorWindow.mp3">Post Anchor Window</a></li>
+            <li><a class="white-text" href="/audio/Instructions/PostTest.mp3">Post Test</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Waveforms</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="/imageFinals/AnchorWindow.png">Anchor Window</a></li>
+            <li><a class="white-text" href="/imageFinals/LearningInstruction.png">Learing Instruction</a></li>
+            <li><a class="white-text" href="/imageFinals/PostAnchorWindow.png">Post Anchor Window</a></li>
+            <li><a class="white-text" href="/imageFinals/PostTest.png">Post Test</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a style="color: #D9C99A" href="http://materializecss.com">Smartnado</a>
       </div>
     </div>
   </footer>
@@ -47,9 +47,13 @@
         {
            console.log(userinput);
            document.getElementById("textshort").innerHTML = "{{getTextShort 'PCLInfo'}}";
-           M.textareaAutoResize($('#textshort'));
            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'PCLInfo'}}";
-           M.textareaAutoResize($('#textdetail'));
+        }
+        else if (userinput == 'AngleofAttackIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'AngleofAttackIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'AngleofAttackIndicatorInfo'}}";
         }
         else if (userinput == 'DigitalAirspeedIndicatorInfo')
         {
@@ -63,6 +67,195 @@
             document.getElementById("textshort").innerHTML = "{{getTextShort 'EADIInfo'}}";
             document.getElementById("textdetail").innerHTML = "{{getTextDetail 'EADIInfo'}}";
         }
+        else if (userinput == 'DigitalAltitudeIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'DigitalAltitudeIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'DigitalAltitudeIndicatorInfo'}}";
+        }
+        else if (userinput == 'NosewheelSteeringandSpeedBrakeindicatorsInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'NosewheelSteeringandSpeedBrakeindicatorsInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'NosewheelSteeringandSpeedBrakeindicatorsInfo'}}";
+        }
+        else if (userinput == 'EADIInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'EADIInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'EADIInfo'}}";
+        }
+        else if (userinput == 'ChronometerInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'ChronometerInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'ChronometerInfo'}}";
+        }
+        else if (userinput == 'EADIInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'EADIInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'EADIInfo'}}";
+        }
+        else if (userinput == 'GeForceIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'GeForceIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'GeForceIndicatorInfo'}}";
+        }
+        else if (userinput == 'RadioSystemInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'RadioSystemInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'RadioSystemInfo'}}";
+        }
+        else if (userinput == 'EHSIInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'EHSIInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'EHSIInfo'}}";
+        }
+        else if (userinput == 'DigitalVerticalSpeedIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'DigitalVerticalSpeedIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'DigitalVerticalSpeedIndicatorInfo'}}";
+        }
+        else if (userinput == 'PEDDInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'PEDDInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'PEDDInfo'}}";
+        }
+        else if (userinput == 'FDUInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'FDUInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'FDUInfo'}}";
+        }
+        else if (userinput == 'AEDDInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'AEDDInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'AEDDInfo'}}";
+        }
+        else if (userinput == 'ESNDInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'ESNDInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'ESNDInfo'}}";
+        }
+
+        else if (userinput == 'AudioConsoleInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'AudioConsoleInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'AudioConsoleInfo'}}";
+        }
+
+        else if (userinput == 'StandbyAirspeedIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'StandbyAirspeedIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'StandbyAirspeedIndicatorInfo'}}";
+        }
+
+        else if (userinput == 'StandbyAltitudeIndictorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'StandbyAltitudeIndictorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'StandbyAltitudeIndictorInfo'}}";
+        }
+        else if (userinput == 'StanbyTurnandSlipIndcatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'StanbyTurnandSlipIndcatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'StanbyTurnandSlipIndcatorInfo'}}";
+        }
+
+        else if (userinput == 'CWSInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'CWSInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'CWSInfo'}}";
+        }
+
+        else if (userinput == 'FlapIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'FlapIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'FlapIndicatorInfo'}}";
+        }
+
+        else if (userinput == 'EFISInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'EFISInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'EFISInfo'}}";
+        }
+
+        else if (userinput == 'ParkingBrakeHandleInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'ParkingBrakeHandleInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'ParkingBrakeHandleInfo'}}";
+        }
+
+        else if (userinput == 'BackupRadioInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'BackupRadioInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'BackupRadioInfo'}}";
+        }
+
+        else if (userinput == 'FlapLeverInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'FlapLeverInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'FlapLeverInfo'}}";
+        }
+
+        else if (userinput == 'OxygenInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'OxygenInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'OxygenInfo'}}";
+        }
+
+        else if (userinput == 'PropulsionInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'PropulsionInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'PropulsionInfo'}}";
+        }
+
+        else if (userinput == 'SystemTestInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'SystemTestInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'SystemTestInfo'}}";
+        }
+
+        else if (userinput == 'TemperatureInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'TemperatureInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'TemperatureInfo'}}";
+        }
+
+        else if (userinput == 'GearIndicatorInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'GearIndicatorInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'GearIndicatorInfo'}}";
+        }
+
+        else if (userinput == 'LightingTrimInfo')
+        {
+            console.log(userinput);
+            document.getElementById("textshort").innerHTML = "{{getTextShort 'LightingTrimInfo'}}";
+            document.getElementById("textdetail").innerHTML = "{{getTextDetail 'LightingTrimInfo'}}";
+        }
 
 
         else
@@ -73,13 +266,47 @@
         return false;
     }
 
-    function getSelection()
-    {
-        var selectBox = document.getElementById('instruments')
-        var userinput = selectBox.options[selectBox.selectedIndex].value;
-        return document.getElementById("textshort").innerHTML = 'changed' + userinput;
-    }
+    
     </script>
+
+  <script>
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+        labels: ["PCL", "EADI", "EHSI", "PEDD", "FDU", "ESND", "CWS"],
+        datasets: [{
+            label: 'Rookies',
+            data: [12, 19, 3, 5, 2, 3, 4],
+            backgroundColor: [
+                'rgba(217, 201, 154, 0.2)'
+            ],
+            borderColor: [
+                'rgba(217, 201, 154, 1)'
+            ],
+            borderWidth: 1
+        },
+        {
+            label: 'Experts',
+            data: [19, 10, 4, 6, 1, 4, 6],
+            backgroundColor: [
+                'rgba(167, 188, 222, 0.2)'
+            ],
+            borderColor: [
+                'rgba(167, 188, 222, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scale: {
+        // Hides the scale
+        display: true
+    }
+    }
+});
+</script>
+
   <script>
       
 
@@ -89,16 +316,12 @@
     $('.modal').modal();
   });
 
-   $(document).ready(function(){
-    $('select').formSelect();
-  });
-
   $(document).ready(function(){
-    $('select').formSelect();
-  });
+  $('select').formSelect();
+});
   
-    M.textareaAutoResize($('#textshort'));
-    M.textareaAutoResize($('#textdetail'));
+    //M.textareaAutoResize($('#textshort'));
+    //M.textareaAutoResize($('#textdetail'));
   
   </script>
 

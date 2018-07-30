@@ -4,6 +4,7 @@ const fs = require('fs')
 const notes = require('./notes.js')
 const generator = require('./app.js')
 const bodyParser = require('body-parser');
+var Chart = require('chart.js');
 const port = process.env.PORT || 3000;
 
 
@@ -51,10 +52,6 @@ app.use((req, res, next) => {                               //middleware example
     next();
 });
 
-
-hbs.registerHelper('getCurrentYear', ()=>{  //function without an argument
-    return new Date().getFullYear()
-});
 
 hbs.registerHelper('screamIt', (text) => {      //function with an argument  hbs syntax:   {{screamIt text}}
     return text.toUpperCase();
