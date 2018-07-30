@@ -8,7 +8,7 @@ var Chart = require('chart.js');
 const port = process.env.PORT || 3000;
 
 
-var textToAudio = JSON.parse(fs.readFileSync('textToAudio4.json', 'utf8'));
+var textToAudio = notes.insert();
 var data = JSON.parse(fs.readFileSync('notes-data.json', 'utf8'));
 
 var app = express();
@@ -21,11 +21,21 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 //     res.render('c log number')
 //   })
 
+
+app.use(express.json());
+
+app.post('/', function(request, response){
+    fs.writeFileSync('metrics.json', JSON.stringify(request.body));
+    console.log(request.body);      // your JSON
+     response.send(request.body);    // echo the result back
+  });
+
 app.post('/editor', urlencodedParser, function (req, res) {
     if (!req.body) return res.sendStatus(400)
     {
         console.log(req.body);
         notes.update(req.body.instruments, notes.getNote(req.body.instruments).title, req.body.textshort, req.body.textdetail);
+        //console.log(notes.insert());
         res.render('editor.hbs', {
             pageTitle: 'Saved'
         });
