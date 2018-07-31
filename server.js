@@ -35,7 +35,7 @@ app.post('/editor', urlencodedParser, function (req, res) {
     {
         console.log(req.body);
         notes.update(req.body.instruments, notes.getNote(req.body.instruments).title, req.body.textshort, req.body.textdetail);
-        //console.log(notes.insert());
+        textToAudio = notes.insert();
         res.render('editor.hbs', {
             pageTitle: 'Saved'
         });
