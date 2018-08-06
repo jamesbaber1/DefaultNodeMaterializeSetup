@@ -10,6 +10,7 @@ const port = process.env.PORT || 3000;
 
 var textToAudio = notes.insert();
 var data = JSON.parse(fs.readFileSync('notes-data.json', 'utf8'));
+var metrics = JSON.parse(fs.readFileSync('metrics.json', 'utf8'));
 
 var app = express();
 
@@ -90,6 +91,10 @@ app.get('/', (req, res) => {
 
 app.get('/json', (req, res) => {
     res.send(textToAudio);
+  });
+
+  app.get('/metrics', (req, res) => {
+    res.send(metrics);
   });
 
 app.use(express.static(__dirname + '/generatedFiles'));

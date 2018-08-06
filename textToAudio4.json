@@ -4,8 +4,8 @@
       "filename": "PCLInfo",
       "audiocontent": "The Power Control Lever directly controls the aircraft engine output. Attached to the lever is the Engine Cutoff paddle responsible for shutting down fuel flow to the engine.",
       "title": "Power Control Lever",
-      "textshort": "The PCL controls the amount of fuel that is supplied to the engine.",
-      "textdetail": "The Power Control Lever directly controls the aircraft engine output. Attached to the lever is the Engine Cutoff paddle responsible for shutting down fuel flow to the engine."
+      "textshort": "Hello, Nathan.",
+      "textdetail": "Hello, Nathan."
     },
     {
       "filename": "AngleofAttackIndicatorInfo",
