@@ -1,48 +1,14 @@
 const express = require('express');
 const  hbs = require('hbs');
-const fs = require('fs')
-const notes = require('./notes.js')
-const generator = require('./app.js')
-const bodyParser = require('body-parser');
-var Chart = require('chart.js');
+const fs = require('fs');
 const port = process.env.PORT || 3000;
 
 
-var textToAudio = notes.insert();
-var data = JSON.parse(fs.readFileSync('notes-data.json', 'utf8'));
-var metrics = JSON.parse(fs.readFileSync('metrics.json', 'utf8'));
 
 var app = express();
 
-var urlencodedParser = bodyParser.urlencoded({ extended: false })
-
-// app.post('/editor', urlencodedParser, function (req, res) {
-//     console.log(req.body);
-//     notes.update(req.body.instruments, "title place holder", req.body.textshort, "textdetail placeholder");
-//     res.render('c log number')
-//   })
-
 
 app.use(express.json());
-
-app.post('/', function(request, response){
-    fs.writeFileSync('metrics.json', JSON.stringify(request.body));
-    console.log(request.body);      // your JSON
-     response.send(request.body);    // echo the result back
-  });
-
-app.post('/editor', urlencodedParser, function (req, res) {
-    if (!req.body) return res.sendStatus(400)
-    {
-        console.log(req.body);
-        notes.update(req.body.instruments, notes.getNote(req.body.instruments).title, req.body.textshort, req.body.textdetail);
-        textToAudio = notes.insert();
-        res.render('editor.hbs', {
-            pageTitle: 'Saved'
-        });
-    }
-    
-  });
 
 
 hbs.registerPartials(__dirname +'/views/partials')
@@ -68,14 +34,6 @@ hbs.registerHelper('screamIt', (text) => {      //function with an argument  hbs
     return text.toUpperCase();
 })
 
-hbs.registerHelper('getTextShort', (filename) => { 
-    return notes.getNote(filename).textshort;
-})
-
-hbs.registerHelper('getTextDetail', (filename) => { 
-    return notes.getNote(filename).textdetail;
-})
-
 app.get('/editor', (req, res) => {
     res.render('editor.hbs', {
         welcome: 'Welcome James!'
@@ -97,7 +55,6 @@ app.get('/json', (req, res) => {
     res.send(metrics);
   });
 
-app.use(express.static(__dirname + '/generatedFiles'));
 app.use(express.static(__dirname + '/public'));
 
 

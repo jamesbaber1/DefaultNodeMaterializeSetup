@@ -1,7 +1,6 @@
 {
   "name": "webserver",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +17,14 @@
     "hbs": "^4.0.1",
     "materialize-css": "^1.0.0-rc.2",
     "url-exists": "^1.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesbaber1/AR-CraftPortal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamesbaber1/AR-CraftPortal/issues"
+  },
+  "homepage": "https://github.com/jamesbaber1/AR-CraftPortal#readme",
+  "description": ""
 }
